@@ -14,7 +14,7 @@
 #define RT_USING_OVERFLOW_CHECK
 #define RT_USING_HOOK
 #define RT_USING_IDLE_HOOK
-#define RT_IDEL_HOOK_LIST_SIZE 4
+#define RT_IDLE_HOOK_LIST_SIZE 4
 #define IDLE_THREAD_STACK_SIZE 256
 #define RT_DEBUG
 
@@ -110,9 +110,6 @@
 /* Utilities */
 
 
-/* ARM CMSIS */
-
-
 /* RT-Thread online packages */
 
 /* IoT - internet of things */
@@ -150,7 +147,12 @@
 /* miscellaneous packages */
 
 
+/* sample package */
+
 /* samples: kernel and components samples */
+
+
+/* example package: hello */
 
 #define SOC_FAMILY_STM32
 #define SOC_SERIES_STM32F1
@@ -160,6 +162,8 @@
 #define SOC_STM32F103C8
 
 /* Onboard Peripheral Drivers */
+
+#define BSP_USING_USB_TO_USART
 
 /* On-chip Peripheral Drivers */
 
